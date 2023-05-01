@@ -63,7 +63,7 @@ viewInventoryLink.addEventListener('click', e => {
         });
 });
 
-saveButton.addEventListener('click', function (event) {
+addInventoryForm.addEventListener('submit', function (event) {
     event.preventDefault();
 
     const drugName = drugNameInput.value;
