@@ -21,6 +21,9 @@ On the View inventory tab, you will see all available drugs, the last one added 
 ## Add Inventory Page
 ![Howtoaddinventory](\\wsl.localhost\Ubuntu\home\kepherogalo\Development\code\phase1\project\Images)
 ## View Inventory Page
+![Viewinventory](\\wsl.localhost\Ubuntu\home\kepherogalo\Development\code\phase1\project\Images)
+
+
 
 
 
