@@ -11,3 +11,16 @@
     float: left;
     padding-right: 30px;
 }
+.menu{
+    height: 100%;
+    width: 200px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #99381f;
+    font-size: 20px;
+}
+.menu a{
+    color: white;
+}
