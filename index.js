@@ -7,7 +7,7 @@ const drugNameInput = document.querySelector('input[placeholder="Enter the drug 
 const quantityInput = document.querySelector('input[placeholder="Enter the quantity"]');
 const priceInput = document.querySelector('input[placeholder="Enter the price"]');
 
-const url = 'http://localhost:3000'
+const url = 'https://crudcrud.com/api/92a155a97f674fc2b2d6f5871a17f763'
 
 drugNameInput.addEventListener('input', () => {
     document.getElementById('drug-error').innerHTML = "";
@@ -34,7 +34,7 @@ viewInventoryLink.addEventListener('click', e => {
                 viewInventoryTable.deleteRow(0);
             }
             const headerRow = viewInventoryTable.insertRow(0);
-            headerRow.insertCell().textContent = "Number";
+            headerRow.insertCell().textContent = "Id";
             headerRow.insertCell().textContent = "Drug name";
             headerRow.insertCell().textContent = "Quantity";
             headerRow.insertCell().textContent = "Price";
@@ -47,7 +47,7 @@ viewInventoryLink.addEventListener('click', e => {
                 const priceCell = row.insertCell();
                 const totalCell = row.insertCell();
 
-                idCell.textContent = item.id;
+                idCell.textContent = item._id;
                 nameCell.textContent = item.name;
                 quantityCell.textContent = item.quantity;
                 priceCell.textContent = item.price;
